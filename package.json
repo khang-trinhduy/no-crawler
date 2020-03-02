@@ -1,0 +1,32 @@
+{
+  "name": "no-crawler",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "description": "a simple crawler written on nodejs",
+  "author": {
+    "name": "kagajr",
+    "email": "kagajr.hm@gmail.com"
+  },
+  "keywords": [
+    "crawler",
+    "nodejs",
+    "scraper",
+    "spider"
+  ],
+  "engines": {
+    "node": "~12.14.0",
+    "npm": "~6.13.x"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.2"
+  }
+}
