@@ -3,11 +3,10 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-var route = require('./routes')
+var route = require("./routes");
 
 const cluster = require("cluster");
 const numCPUs = require("os").cpus().length;
-
 
 var app = express();
 
@@ -19,9 +18,10 @@ app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, "public")));
 
-app.use('/', route);
+// app.use("/public", express.static(path.join(__dirname, "public")));
+
+app.use("/", route);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

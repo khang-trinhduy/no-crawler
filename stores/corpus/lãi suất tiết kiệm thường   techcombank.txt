@@ -1,0 +1,969 @@
+
+
+    
+    
+
+
+
+
+    
+        (function () {
+            var jsList;
+            // In case of desktop environment and wrong screen-size detection
+            jsList = ["/Content/js/global.js"];
+
+            if (isMobile == "True" || screenPixelWidth <= 996) {
+                // Still loading mobile js on small screen
+                jsList = ["/Content/js/mobile.js"];
+            }
+            if (screenPixelWidth <= 1024 && screenPixelWidth > 996) {
+                if (isMobile == "True") {
+                    jsList = ["/Content/js/mobile.js"];
+                    $("#btcss").attr("media", "(max-width: 1024px)");
+                    $("#menucss").attr("media", "(min-width: 1025px)");
+                    $("#sitepccss").attr("media", "(min-width: 1025px)");
+                    $("#smcss").attr("media", "(max-width: 1024px)");
+                }
+            }
+            var s = document.getElementsByTagName('body')[0];
+            for (var i = 0; i < jsList.length; i++) {
+                var script = document.createElement("script");
+                script.type = "text/javascript";
+                script.src = jsList[i];
+                s.insertBefore(script, s.firstChild);
+            }
+        })();
+    
+    
+
+
+    $(document).ready(function () {
+        // 20160411 - Add suggestions
+        var datasource = new Bloodhound({
+            datumTokenizer: Bloodhound.tokenizers.whitespace,
+            queryTokenizer: Bloodhound.tokenizers.whitespace,
+            remote: {
+                url: '/ajax/suggestions',
+                prepare: function (query, settings) {
+                    settings.type = "POST";
+                    settings.data = {
+                        keyword: query
+                    };
+                    settings.dataType = "json";
+                    return settings;
+                }
+            }
+        });
+
+        $(".typeahead").typeahead({
+            hint: true,
+            highlight: true,
+            minLength: 1
+        },
+        {
+            name: 'searchvalues',
+            limit: 5,
+            source: datasource
+        });
+
+        $(".searchbtn").click(function () {
+            $(this).parent("form").submit();
+        });
+
+
+    });
+
+
+    
+        
+            
+            Mạng lưới & Địa điểm ATM
+            FAQ
+            Liên hệ
+
+                
+                            
+                                
+                            
+                
+        
+        
+        
+            
+                
+                
+            
+        
+        
+                    
+                        DOANH NGHIỆP
+                         84 24 3944 6699
+                    
+                    
+                        CÁ NHÂN
+                        1800 588 822
+                    
+
+        
+
+        
+            
+        
+
+            
+                
+            
+    
+
+
+
+    
+    
+        close
+        contact
+        register
+        Calculators
+        login
+        search
+    
+    
+    
+        
+            
+                Liên hệ
+            
+            
+                
+                    CÁ NHÂN
+                    1800 588 822
+                
+                
+                
+                    DOANH NGHIỆP
+                     84 24 3944 6699
+                
+                
+                
+                    Khách hàng ưu tiên
+                    1800 588 823 |  84-24 3944 9626
+                
+            
+        
+        
+            
+                ĐĂNG KÝ TRỰC TUYẾN
+            
+            
+                
+
+                        Vay vốn
+                        Mở thẻ
+                        Dịch vụ tài khoản
+                        Ngân hàng điện tử
+                        Tư vấn gửi tiết kiệm
+                
+            
+        
+        
+            
+                CÔNG CỤ & TIỆN ÍCH
+            
+            
+                
+
+                        Tỷ giá
+                        Lãi suất
+                        Biểu phí & biểu mẩu
+                        Công cụ tính toán
+                        Tra cứu chứng thư bảo lãnh
+                
+            
+        
+        
+            
+                Ngân hàng trực tuyến
+            
+            
+.column_left p,.column_left a,.column_left div,.leftmenu > li > a{font-size:13px !important;}
+
+
+Đăng nhập ngân hàng trực tuyến
+CÁ NHÂN DOANH NGHIỆP
+
+            
+        
+        
+            
+                TÌM KIẾM
+            
+            
+                
+                    
+                    TÌM KIẾM
+                
+            
+        
+    
+
+
+    
+
+
+    
+            Trang chủ
+
+
+    
+
+        
+            Cá nhân
+                
+                
+                    
+                        Giải pháp, sản phẩm và dịch vụ dành cho tài chính cá nhân
+                        
+                                
+                                        
+                                            
+                                        
+                                    Tài khoản
+                                
+                                
+                                        
+                                            
+                                        
+                                    Tiết kiệm
+                                
+                                
+                                        
+                                            
+                                        
+                                    Tín dụng
+                                
+                                
+                                        
+                                            
+                                        
+                                    Thẻ Techcombank
+                                
+                                
+                                        
+                                            
+                                        
+                                    Ngân hàng điện tử
+                                
+                                
+                                        
+                                            
+                                        
+                                    Chuyển & Nhận tiền quốc tế
+                                
+                                
+                                        
+                                            
+                                        
+                                    Bảo hiểm
+                                
+                                
+                                        
+                                            
+                                        
+                                    Các dịch vụ khác
+                                
+                                
+                                        
+                                            
+                                        
+                                    Chương trình ưu đãi
+                                
+                                
+                                        
+                                            
+                                        
+                                    Sản phẩm đầu tư
+                                
+                        
+                    
+
+                        
+                                Bạn có biết?
+Vay mua bất động sản đang có chính sách hấp dẫn
+
+
+
+Tìm hiểu thêm
+
+                        
+                
+        
+        
+            Doanh nghiệp
+                
+                
+                    
+                        Giải pháp, sản phẩm và dịch vụ dành cho tài chính doanh nghiệp
+                        
+                                
+                                        
+                                            
+                                        
+                                    Tín dụng doanh nghiệp
+                                
+                                
+                                        
+                                            
+                                        
+                                    Ngân hàng điện tử
+                                
+                                
+                                        
+                                            
+                                        
+                                    Tài trợ thương mại và bảo lãnh
+                                
+                                
+                                        
+                                            
+                                        
+                                    Ngoại hối & Giao dịch nguồn vốn
+                                
+                                
+                                        
+                                            
+                                        
+                                    Tiền gửi, dịch vụ quản lý tài khoản & sản phẩm đặc thù 
+                                
+                                
+                                        
+                                            
+                                        
+                                    Sản phẩm mới và khuyến mãi
+                                
+                        
+                    
+
+                        
+                                Bạn có biết?
+Doanh nghiệp được chuyển khoản hoàn toàn miễn phí trong và ngoài hệ thống với F@st Ebank.
+
+
+Tìm hiểu thêm
+
+                        
+                
+        
+        
+            Khách hàng ưu tiên
+                
+                
+                    
+                        Sản phẩm và dịch vụ dành cho khách hàng ưu tiên
+                        
+                                
+                                        
+                                            
+                                        
+                                    Hội viên
+                                
+                                
+                                        
+                                            
+                                        
+                                    Sản phẩm
+                                
+                                
+                                        
+                                            
+                                        
+                                    Dịch vụ
+                                
+                                
+                                        
+                                            
+                                        
+                                    Cuộc sống
+                                
+                                
+                                        
+                                            
+                                        
+                                    Tin tức
+                                
+                                
+                                        
+                                            
+                                        
+                                      Địa điểm Dịch vụ ngân hàng ưu tiên
+                                
+                        
+                    
+
+                        
+                                Bạn có biết?
+Sử dụng dịch vụ ngân hàng ưu tiên, khách hàng được giao dịch tại một không gian riêng biệt, không phải chờ đợi mà được giải quyết một cách nhanh chóng tối đa.
+
+Tìm hiểu thêm
+
+                        
+                
+        
+        
+            Ngân hàng đầu tư
+                
+                
+                    
+                        
+                        
+                                
+                                        
+                                            
+                                        
+                                    Giới thiệu về Ngân Hàng Đầu Tư
+                                
+                                
+                                        
+                                            
+                                        
+                                    Sản phẩm cho Khách hàng Tổ chức
+                                
+                                
+                                        
+                                            
+                                        
+                                    Sản phẩm cho Khách hàng Cá nhân
+                                
+                                
+                                        
+                                            
+                                        
+                                    Hệ thống giao dịch chứng khoán TCInvest
+                                
+                                
+                                        
+                                            
+                                        
+                                    Dịch vụ Khách hàng
+                                
+                        
+                    
+
+                        
+                                Bạn có biết?
+Các sản phẩm đầu tư của chúng tôi được thiết kế linh hoạt để đáp ứng nhu cầu sử dụng vốn đa dạng của nhiều nhà đầu tư
+
+Tìm hiểu thêm
+
+                        
+                
+        
+        
+            Nhà đầu tư
+                
+                
+                    
+                        Thông tin dành cho nhà đầu tư
+                        
+                                
+                                        
+                                            
+                                        
+                                    Đại hội cổ đông
+                                
+                                
+                                        
+                                            
+                                        
+                                    Báo cáo thường niên
+                                
+                                
+                                        
+                                            
+                                        
+                                    Thông tin tài chính
+                                
+                                
+                                        
+                                            
+                                        
+                                    Tài liệu trình bày
+                                
+                        
+                    
+
+                        
+                                Bạn có biết?
+Nhà đầu tư có thể xem thông tin chi tiết báo cáo tài chính từng năm và từng quý ngay trên website của Techcombank.
+
+Tìm hiểu thêm
+
+                        
+                
+        
+        
+            Giới thiệu
+                
+                
+                    
+                        Tìm hiểu về Techcombank
+                        
+                                
+                                        
+                                            
+                                        
+                                    Tin tức
+                                
+                                
+                                        
+                                            
+                                        
+                                    Về chúng tôi
+                                
+                                
+                                        
+                                            
+                                        
+                                    Dành cho báo chí
+                                
+                                
+                                        
+                                            
+                                        
+                                    Trách nhiệm cộng đồng
+                                
+                        
+                    
+
+                        
+                                Bạn có biết?
+Techcombank Nhận Giải Thưởng Danh Giá “Ngân Hàng Tốt Nhất Việt Năm 2018” Từ Euromoney
+
+
+Xem Chi Tiết
+
+                        
+                
+        
+        
+            Tuyển dụng
+        
+
+
+        
+            Bạn có biết?
+            Vay mua bất động sản đang có chính sách hấp dẫn
+
+
+
+Tìm hiểu thêm
+
+        
+        
+            Bạn có biết?
+            Doanh nghiệp được chuyển khoản hoàn toàn miễn phí trong và ngoài hệ thống với F@st Ebank.
+
+
+Tìm hiểu thêm
+
+        
+        
+            Bạn có biết?
+            Sử dụng dịch vụ ngân hàng ưu tiên, khách hàng được giao dịch tại một không gian riêng biệt, không phải chờ đợi mà được giải quyết một cách nhanh chóng tối đa.
+
+Tìm hiểu thêm
+
+        
+        
+            Bạn có biết?
+            Các sản phẩm đầu tư của chúng tôi được thiết kế linh hoạt để đáp ứng nhu cầu sử dụng vốn đa dạng của nhiều nhà đầu tư
+
+Tìm hiểu thêm
+
+        
+        
+            Bạn có biết?
+            Nhà đầu tư có thể xem thông tin chi tiết báo cáo tài chính từng năm và từng quý ngay trên website của Techcombank.
+
+Tìm hiểu thêm
+
+        
+        
+            Bạn có biết?
+            Techcombank Nhận Giải Thưởng Danh Giá “Ngân Hàng Tốt Nhất Việt Năm 2018” Từ Euromoney
+
+
+Xem Chi Tiết
+
+        
+
+
+
+
+
+
+    
+         
+    
+    
+        
+            
+                X
+                Tìm
+                
+            
+        
+        
+        
+        
+    
+.column_left p,.column_left a,.column_left div,.leftmenu > li > a{font-size:13px !important;}
+
+
+Đăng nhập ngân hàng trực tuyến
+CÁ NHÂN DOANH NGHIỆP
+
+
+
+
+    
+    
+
+
+    
+
+
+
+
+
+    
+        
+
+            
+.column_left p,.column_left a,.column_left div,.leftmenu > li > a{font-size:13px !important;}
+
+
+Đăng nhập ngân hàng trực tuyến
+CÁ NHÂN DOANH NGHIỆP
+            
+    
+            
+                
+                
+                    CÔNG CỤ & TIỆN ÍCH
+        
+        
+            
+        
+    
+    
+            
+                    
+                        
+                        
+                    
+                Tỷ giá
+                
+            
+                    
+                        
+                        
+                    
+                Lãi suất
+                
+            
+                    
+                        
+                        
+                    
+                Biểu phí & biểu mẩu
+                
+            
+                    
+                        
+                        
+                    
+                Công cụ tính toán
+                
+            
+                    
+                        
+                        
+                    
+                Tra cứu chứng thư bảo lãnh
+                
+    
+                    
+        
+            
+            Trang chủCông cụ & tiện íchLãi suấtLãi suất tiền gửi
+            
+                Lãi suất Tiết kiệm thường
+                
+                
+                
+
+    
+            
+                Lãi suất tiết kiệm thường áp dụng từ ngày 19/02/2020
+            
+            
+                Lãi suất tiết kiệm thường áp dụng từ ngày 30/01/2020
+            
+            
+                Lãi suất tiết kiệm thường áp dụng từ ngày 22/01/2020
+            
+            
+                Lãi suất tiết kiệm thường áp dụng từ ngày 10/01/2020
+            
+            
+                Lãi suất tiết kiệm thường áp dụng từ ngày 01/01/2020
+            
+    
+Trang cuốiTrang sau...2019181716151413121110987654321...Số tin hiển thị 5101520  var totalItemShowed = 5; var startIndex = 1; var endIndex = 5; var total =20; updatePhraseStatus(startIndex>totalItemShowed?2:1, endIndex); var arrLi = $(".paging li a[class^='p-']").parent('li'); $(document).ready(function(){  if(arrLi.length > totalItemShowed){ arrLi.removeClass('show').addClass('hide');  for(i= startIndex; i<= endIndex; i++){ $(arrLi[total - i]).removeClass('hide').addClass('show'); } } }); $('.paging .phrase-prev').click(function(){ var s = parseInt($(".paging li[class*='show']:last").text()); s = s - totalItemShowed; if(s < 1) s = 1; var e = s+ totalItemShowed -1; arrLi.removeClass('show').addClass('hide'); for( i = s; i <= e; i++){ $(arrLi[total - i]).removeClass('hide').addClass('show'); } updatePhraseStatus(s, e);}); $('.paging .phrase-next').click(function(){ var s = parseInt($(".paging li[class*='show']:last").text()); var e = parseInt($(".paging li[class*='show']:first").text()); s = e + 1; e = s+ totalItemShowed -1; while(e > total){ s--; e--; } arrLi.removeClass('show').addClass('hide'); for( i = s; i <= e; i++){ $(arrLi[total - i]).removeClass('hide').addClass('show'); } updatePhraseStatus(s, e);}); function updatePhraseStatus(s,e){ if(s > 1) $('.paging .phrase-prev').show(); else $('.paging .phrase-prev').hide(); if(e < total ) $('.paging .phrase-next').show(); else $('.paging .phrase-next').hide();};                
+                
+
+
+
+
+            
+            
+                
+                
+                
+
+Về đầu trang
+
+
+
+Chia sẻ
+In
+
+
+
+            
+
+        
+    
+
+
+    
+        
+        
+    
+    
+    
+
+    
+        
+            
+            Kết nối với chúng tôi
+            
+            
+                
+            
+            
+            
+            
+            
+                
+            
+            
+            
+                
+            
+            
+            
+        
+        
+            
+            Mạng lưới & Địa điểm ATM
+            FAQ
+            Liên hệ
+
+        
+        
+            
+        Sơ đồ trang
+        Liên hệ
+
+        
+        
+        Bản quyền © 2014 thuộc về Ngân hàng Techcombank. Bảo lưu mọi quyền lợi.
+        
+        
+    
+
+
+
+    
+        $(document).ready(function () {
+            var catcname = "";
+            if (catcname == null || catcname == '') {
+                catcname = "home";
+            }
+            var mnuClass = "mnu-" + catcname;
+            var menuItem = $("li." + mnuClass);
+            if (menuItem.length > 0) {
+                $($(menuItem)[0]).addClass("active");
+                if ($($(menuItem)[1]).hasClass('uknow')) {
+                    $($(menuItem)[1]).addClass("active");
+                }
+            }
+            // Process animation for sub-menu
+            $('.mainnav_wrap ul.mainnav > li').each(function () {
+                if ($(this).hasClass("active"))
+                    $(this).has("ul").addClass("expand");
+            });
+
+            //select menu item
+            $("#mainnav li.active .submenu-left ul li").each(function () {
+                var ref = $(this).find("a").attr("href");
+                var pathName = window.location.pathname;
+                var curref = pathName.substring(0);
+                if (pathName.match(ref) != null) {
+                    $(this).find("a").css("color", "#ed1c24");
+                }
+            });
+
+            $(".advertiseLeft a, .swap-block-home .block a").click(function () {
+                var href = $(this).attr("href");
+                if (href != undefined && href != null && href != "" && href != "#") {
+                    var id = $(this).data("imageid");
+                    if (id == undefined)
+                        id = $(this).data("name");
+                    if (id == undefined)
+                        id = $(this).data("readmore");
+                    $.ajax({
+                        url: "/ajax/clickbanner?id=" + id,
+                        type: "GET"
+                    });
+                    return true;
+                }
+            });
+
+            var reloaded = false;
+            var mass = 1024 - (screenPixelWidth - $('body').innerWidth());
+            $(window).resize(function () {
+                var currWidth = $('body').innerWidth();
+                if (isMobile == "True") {
+                    if (screenPixelWidth >= 1024 && currWidth < 1024) {
+                        if (!reloaded) {
+                            reloaded = true;
+                        } else {
+                            return false;
+                        }
+                    }
+                    if (screenPixelWidth < 1024 && currWidth >= 1024) {
+                        if (!reloaded) {
+                            reloaded = true;
+                        } else {
+                            return false;
+                        }
+                    }
+                } else {
+                    if (screenPixelWidth >= 1024 && currWidth < mass) {
+                        if (!reloaded) {
+                            reloaded = true;
+                        } else {
+                            return false;
+                        }
+                    }
+                    if (screenPixelWidth < 1024 && currWidth >= mass) {
+                        if (!reloaded) {
+                            reloaded = true;
+                        } else {
+                            return false;
+                        }
+                    }
+                }
+                if (reloaded) {
+                    window.location.href = window.location.href;
+                }
+            });
+
+            if ($('#slides').length > 0) {
+                $("#slides").swipe({
+                    swipeStatus: function (event, phase, direction, distance, duration) {
+                        if (phase == "end") {
+                            switch (direction) {
+                                case 'left':
+                                    $('#slides').superslides('animate', 'next');
+                                    break;
+                                case 'right':
+                                    $('#slides').superslides('animate', 'prev');
+                                    break;
+                            }
+                        }
+                        if (phase == "cancel" && distance <= 5) {
+                            var a = $('#slides').find('li:nth-child(' + ($('#slides').superslides('current') + 1) + ') > a');
+                            if (a.length > 0) {
+                                var href = a.attr('href');
+                                var target = a.attr('target');
+                                switch (target) {
+                                    case '_blank':
+                                        window.open(href);
+                                        break;
+                                    case '_self':
+                                        window.location.href = href;
+                                        break;
+                                }
+                            }
+                        }
+                    },
+                    allowPageScroll: "vertical",
+                    triggerOnTouchLeave: true,
+                    threshold: 50
+                });
+            }
+            if ($('.swipe-zone').length > 0) {
+                $(".swipe-zone").swipe({
+                    swipeStatus: function (event, phase, direction, distance, duration) {
+                        if (phase == "end") {
+                            switch (direction) {
+                                case 'left':
+                                    $('.nivo-directionNav').find('.nivo-nextNav').click();
+                                    break;
+                                case 'right':
+                                    $('.nivo-directionNav').find('.nivo-prevNav').click();
+                                    break;
+                            }
+                        }
+                        if (phase == "cancel" && distance <= 5) {
+                            var index = parseInt($(".nivo-controlNav .active").attr('rel')) + 1;
+                            var a = $('.nivoSlider').find('.nivo-imageLink:nth-child(' + index + ')');
+                            if (a.length > 0) {
+                                var href = a.attr('href');
+                                var target = a.attr('target');
+                                switch (target) {
+                                    case '_blank':
+                                        window.open(href);
+                                        break;
+                                    case '_self':
+                                        window.location.href = href;
+                                        break;
+                                }
+                            }
+                        }
+                    },
+                    allowPageScroll: "vertical",
+                    triggerOnTouchLeave: true,
+                    threshold: 50
+                });
+            }
+        })
+    
+
+    
+        /* <![CDATA[ */
+        var google_conversion_id = 943070714;
+        var google_custom_params = window.google_tag_params;
+        var google_remarketing_only = true;
+        /* ]]> */
+    
+    
+
+    
+    
+        
+            
+        
+    

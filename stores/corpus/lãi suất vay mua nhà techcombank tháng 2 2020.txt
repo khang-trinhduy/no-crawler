@@ -1,0 +1,1256 @@
+
+    
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.8&appId=1428486654126000";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+
+
+    !function (f, b, e, v, n, t, s) {
+        if (f.fbq) return; n = f.fbq = function () {
+            n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+        };
+        if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+        n.queue = []; t = b.createElement(e); t.async = !0;
+        t.src = v; s = b.getElementsByTagName(e)[0];
+        s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+        'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '525916154652552');
+    fbq('track', 'PageView');
+
+
+    
+
+
+
+    
+    
+    
+        
+            
+        
+    
+
+
+            
+        
+    
+
+
+    
+
+
+        
+        
+
+                
+        
+    
+
+
+                
+        
+    
+
+
+        
+    
+
+    
+    
+        (024) 3 7822 888
+    
+    
+        support@topbank.vn
+    
+    
+
+    
+
+
+    
+    
+
+
+
+    
+        
+
+            support@topbank.vn 
+            |(024) 3 7822 888
+                    Đăng nhập
+        
+    
+
+
+
+
+    
+        
+            
+            
+                Trang chủ  
+                
+                    Sản phẩm vay 
+                    
+                        Vay mua nhà
+                        Vay mua xe
+                        Vay tín chấp
+                        Vay mua nhà dự án
+                    
+                
+                Gửi tiết kiệm 
+                Thẻ tín dụng 
+                
+                    Công cụ tính  
+                    
+                        Ước tính giá trị xe có thể mua
+                        Ước tính giá trị nhà có thể mua
+                        Ước tính số tiền có thể vay
+                        Tính lãi khoản vay
+                        Tính lãi tiền gửi
+                    
+                
+                    
+    
+        Tin tức 
+        
+                        
+                            
+                                Tiêu điểm - Khuyến mãi
+                            
+                        
+                        
+                            
+                                Ngân hàng - Bảo hiểm
+                            
+                        
+                        
+                            
+                                Bất động sản
+                            
+                        
+                        
+                            
+                                Thị trường ô tô
+                            
+                        
+
+        
+    
+    
+        Tư vấn 
+        
+                        
+                            
+                                Vay mua nhà
+                            
+                        
+                        
+                            
+                                Vay mua xe
+                            
+                        
+                        
+                            
+                                Vay tiêu dùng
+                            
+                        
+                        
+                            
+                                Thẻ tín dụng
+                            
+                        
+                        
+                            
+                                Gửi tiết kiệm
+                            
+                        
+                        
+                            
+                                Thanh toán
+                            
+                        
+                        
+                            
+                                Bảo hiểm
+                            
+                        
+
+            
+                
+                    Đăng ký tư vấn
+                
+            
+        
+    
+
+
+                
+                    Hỏi đáp
+                    
+
+            
+                Vay tín chấp
+            
+            
+                Vay mua nhà
+            
+            
+                Vay mua xe
+            
+            
+                Thẻ tín dụng
+            
+            
+                Gửi tiết kiệm
+            
+
+
+                
+
+                        
+                            Đăng nhập
+                        
+            
+        
+    
+
+
+
+
+
+        
+
+
+
+    
+        
+        
+            
+                    
+                        Lãi suất vay mua nhà Techcombank tháng 2/2020 - Cập nhật mới nhất
+                    
+                    03/02/2020
+                    
+                        
+
+{ lang: '' }
+
+    
+        
+            
+            
+        
+        
+        
+            
+        
+    
+
+
+                    
+                    
+                        Lãi suất vay mua nhà Techcombank 2020 từ 7,99%/năm, hồ sơ vay tiền mua nhà trả góp nhanh gọn. Tư vấn về thủ tục vay mua nhà Techcombank chi tiết nhất!
+
+ 
+
+                        
+        Mục lục [Ẩn]
+        
+                
+                    1. Lãi suất vay mua nhà Techcombank tháng 2/2020
+                
+                
+                    2. Ưu điểm vay mua nhà ngân hàng Techcombank tháng 2/2020
+                
+                
+                    Giải ngân trước - hoàn thiện thủ tục tài sản đảm bảo sau 
+                
+                
+                    Ưu đãi trả nợ trước hạn - Trả thêm tối đa 20 triệu tiền gốc mỗi tháng
+                
+                
+                    Ưu đãi khác của sản phẩm vay mua nhà Techcombank
+                
+                
+                    3. Công cụ, cách tính lãi suất vay mua nhà Techcombank
+                
+                
+                    4. Hồ sơ vay mua nhà tại Techcombank tháng 2/2020
+                
+        
+
+
+
+
+
+                         
+
+Với vị thế vững chắc trên thị trường ngân hàng thương mại Việt Nam, Techcombank đang cung cấp đầy đủ các sản phẩm tín dụng cho cả doanh nghiệp lẫn cá nhân, trong đó nổi bật lên là sản phẩm cho vay mua nhà. Lãi suất vay mua nhà Techcombank 2020 là thông tin đang được nhiều khách hàng có nhu cầu vay mua nhà/đất quan tâm.
+
+ 
+
+Sau hơn 25 năm thành lập kể từ năm 1993, Techcombank hiện là một trong những ngân hàng thương mại cổ phần lớn nhất Việt Nam… Ngoài ra, Techcombank cũng sở hữu một mạng lưới dịch vụ đa dạng và rộng khắp với 315 chi nhánh trên toàn quốc cùng với hệ thống công nghệ ngân hàng tiên tiến bậc nhất. Techcombank cung cấp những sản phẩm và dịch vụ tài chính đáp ứng các nhu cầu đa dạng của nhiều phân khúc khách hàng khác nhau. Đối với gói sản phẩm vay mua nhà, Techcombank đang áp dụng nhiều mức lãi suất ưu đãi hấp dẫn với những ưu điểm vượt trội.
+
+ 
+
+Không thể bỏ qua: Lãi suất vay mua nhà tháng 2/2020 tại các ngân hàng uy tín nhất
+
+ 
+
+
+1. Lãi suất vay mua nhà Techcombank tháng 2/2020
+
+ 
+
+
+Hiện tại Techcombank đang cho vay mua nhà với các gói ưu đãi với lãi suất hấp dẫn như sau:
+
+ 
+
+
+	Gói 1: 7,99% /năm cố định trong 6 tháng đầu tiên.
+	Gói 2: 8,29% /năm cố định trong 12 tháng đầu tiên.
+
+
+ 
+
+Sau thời gian ưu đãi, mức lãi suất được áp dụng theo phương thức lãi thả nổi, bằng lãi suất cơ sở cộng với biên độ. Hiện nay, lãi suất sau ưu đãi dao động từ 10,5 - 12%/năm.
+
+ 
+
+Các mức lãi suất vay mua nhà Techcombank tháng 2/2020 với thời gian ưu đãi tương ứng đang ở mức trung bình thấp trên thị trường, điều này giúp cho khách hàng dễ dàng tiếp cận với nguồn vốn vay hơn. Ngoài ra việc đa dạng hóa các gói ưu đãi về lãi suất còn giúp khách hàng có thêm nhiều sự lựa chọn khi vay mua nhà Techcombank.
+
+ 
+
+
+
+Lãi suất vay mua nhà Techcombank tháng 2 năm 2020
+
+ 
+
+Tùy thuộc vào nhu cầu vay vốn, số dư tài chính hiện tại cũng như khả năng chi trả trong tương lai, khách hàng có thể linh hoạt lựa chọn các gói cho vay mua nhà trên. 
+
+ 
+
+
+2. Ưu điểm vay mua nhà ngân hàng Techcombank tháng 2/2020
+
+ 
+
+
+
+Giải ngân trước - hoàn thiện thủ tục tài sản đảm bảo sau 
+
+ 
+
+
+Techcombank đã hợp tác với công ty Nguyên Thực cho phép khách hàng mua nhà đã hình thành được giải ngân khoản trước, hoàn thiện thủ tục tài sản đảm bảo sau, hiện được áp dụng tại một số quận nội thành tại Hà Nội và TP Hồ Chí Minh.
+
+ 
+
+
+
+ 
+
+Giải ngân trước, hoàn thiện thủ tục sau - Vay mua nhà Techcombank 2020
+
+ 
+
+Điều này mang lại các lợi ích thiết thực dành cho khách hàng:
+
+ 
+
+
+	Rút ngắn 50% thời gian so với quy trình hiện tại, bên bán nhận được tiền sớm hơn
+	Dựa vào kết quả xác thực của công ty Nguyên Thực, người mua xác định được tài sản đó là thật hay giả.
+	Căn cứ vào tư vấn xác minh khả năng sang tên của Nguyên Thực, người mua biết được tài sản này có thể sang tên hay không.
+	Thay bằng việc KH tốn thời gian đi làm các thủ tục/ thuê môi giới bất động sản đi làm (không yên tâm, tốn chi phí), công ty Nguyên Thực thực hiện các thủ tục hành chính sang tên Giấy chứng nhận cho khách hàng (một công ty uy tín, là đối tác của TCB trong thời gian nhiều năm)
+
+
+ 
+
+Click ngay: Chi tiết lãi suất vay mua nhà Techcombank 2020
+
+ 
+
+
+
+ 
+
+Vay mua nhà Techcombank 2020
+
+ 
+
+
+Ưu đãi trả nợ trước hạn - Trả thêm tối đa 20 triệu tiền gốc mỗi tháng
+
+ 
+
+
+Tại Techcombank, khách hàng được quyền trả thêm tối đa 20 triệu tiền gốc mỗi tháng mà không bị tính phí phạt. Với phương thức này, mỗi năm khách hàng có thể trả nợ tối đa 120 triệu tiền gốc, điều này sẽ giúp khách hàng giảm áp lực trả nợ, giảm áp lực tiền lãi hàng tháng. Đây là ưu đãi đặc biệt nổi bật của sản phẩm vay mua nhà Techcombank tháng 2/2020 được đông đảo khách hàng hưởng ứng. Với đặc điểm này, nhiều người vay đã sớm trả nợ trước hạn và tiết kiệm được nhiều chi phí lãi vay. 
+
+ 
+
+
+Ưu đãi khác của sản phẩm vay mua nhà Techcombank
+
+ 
+
+
+Ngoài các ưu đãi về lãi suất cũng như việc hỗ trợ giải ngân trước, hoàn thiện thủ tục tài sản đảm bảo sau, khi vay mua nhà tại Techcombank, khách hàng còn nhận được các lợi ích sau:
+
+ 
+
+
+	Được cho vay lên tới 10 tỷ đồng
+	Thời hạn vay vốn lên tới 25 năm
+	Có thể dùng chính bất động sản định mua làm tài sản đảm bảo
+	Xác định hạn mức vay ngay khi chưa cần tài sản đảm bảo
+	Gạt bỏ nỗi lo chứng minh thu nhập
+	Phê duyệt nhanh chóng
+	Phương thức trả nợ linh hoạt: với số tiền phải trả hàng tháng cố định và tiết kiệm tới 25% so với phương thức trả nợ thông thường
+
+
+ 
+
+
+3. Công cụ, cách tính lãi suất vay mua nhà Techcombank
+
+ 
+
+
+Lãi suất vay mua nhà Techcombank, ngân hàng đang áp dụng theo phương thức lãi thả nổi, dư nợ giảm dần cho khách hàng. Nghĩa là lãi suất được điều chỉnh theo từng thời kỳ, biến đổi theo thời gian đồng thời chỉ tính trên số tiền thực tế khách hàng còn nợ, sau khi đã trừ ra phần tiền gốc đã trả trong các tháng trước đó. 
+
+ 
+
+Để hình dung một cách dễ dàng và nhanh chóng về số tiền cần trả khi vay mua nhà Techcombank tháng 2/2020, bạn có thể tham khảo ví dụ dưới đây: 
+
+ 
+
+Anh An vay mua nhà có giá trị 1,5 tỉ tại Techcombank đầu năm 2020. Anh An được vay với hạn mức tối đa là 80%
+
+ 
+
+
+	Số tiền được vay thực tế là 1,2 tỉ đồng. 
+	Thời hạn vay là 20 năm, 
+	Lãi suất ưu đãi 12 tháng đầu là 8,29%, 
+	Lãi suất thả nổi sau ưu đãi là 11%. 
+
+
+ 
+
+Trong trường hợp anh An không trả nợ trước hạn ta có bảng lãi phải trả chi tiết như sau: 
+
+ 
+
+
+	
+		
+			STT
+			SỐ TIỀN TRẢ HÀNG THÁNG
+			LÃI
+			GỐC
+			SỐ DƯ
+		
+	
+	
+		
+			1
+			13.290.000
+			8.290.000
+			5.000.000
+			1.195.000.000
+		
+		
+			2
+			13.255.458
+			8.255.458
+			5.000.000
+			1.190.000.000
+		
+		
+			3
+			13.220.917
+			8.220.917
+			5.000.000
+			1.185.000.000
+		
+		
+			4
+			13.186.375
+			8.186.375
+			5.000.000
+			1.180.000.000
+		
+		
+			5
+			13.151.833
+			8.151.833
+			5.000.000
+			1.175.000.000
+		
+		
+			6
+			13.117.292
+			8.117.292
+			5.000.000
+			1.170.000.000
+		
+		
+			7
+			13.082.750
+			8.082.750
+			5.000.000
+			1.165.000.000
+		
+		
+			8
+			13.048.208
+			8.048.208
+			5.000.000
+			1.160.000.000
+		
+		
+			9
+			13.013.667
+			8.013.667
+			5.000.000
+			1.155.000.000
+		
+		
+			10
+			12.979.125
+			7.979.125
+			5.000.000
+			1.150.000.000
+		
+		
+			11
+			12.944.583
+			7.944.583
+			5.000.000
+			1.145.000.000
+		
+		
+			12
+			12.910.042
+			7.910.042
+			5.000.000
+			1.140.000.000
+		
+		
+			13
+			15.450.000
+			10.450.000
+			5.000.000
+			1.135.000.000
+		
+		
+			14
+			15.404.167
+			10.404.167
+			5.000.000
+			1.130.000.000
+		
+		
+			15
+			15.358.333
+			10.358.333
+			5.000.000
+			1.125.000.000
+		
+		
+			…
+			 
+			 
+			 
+			 
+		
+		
+			230
+			5.504.167
+			504.167
+			5.000.000
+			50.000.000
+		
+		
+			231
+			5.458.333
+			458.333
+			5.000.000
+			45.000.000
+		
+		
+			232
+			5.412.500
+			412.5
+			5.000.000
+			40.000.000
+		
+		
+			233
+			5.366.667
+			366.667
+			5.000.000
+			35.000.000
+		
+		
+			234
+			5.320.833
+			320.833
+			5.000.000
+			30.000.000
+		
+		
+			235
+			5.275.000
+			275
+			5.000.000
+			25.000.000
+		
+		
+			236
+			5.229.167
+			229.167
+			5.000.000
+			20.000.000
+		
+		
+			237
+			5.183.333
+			183.333
+			5.000.000
+			15.000.000
+		
+		
+			238
+			5.137.500
+			137.5
+			5.000.000
+			10.000.000
+		
+		
+			239
+			5.091.667
+			91.667
+			5.000.000
+			5.000.000
+		
+		
+			240
+			5.045.833
+			45.833
+			5.000.000
+			0
+		
+	
+
+
+ 
+
+Ghi chú: Bảng tính lãi chỉ mang tính chất tham khảo, thực tế lịch trả nợ phụ thuộc vào khách hàng, trong trường hợp khách hàng trả nợ trước hạn hoặc áp dụng ưu đãi trả thêm nợ gốc hàng tháng, lịch trả nợ chi tiết sẽ có sự thay đổi.
+
+ 
+
+
+4. Hồ sơ vay mua nhà tại Techcombank tháng 2/2020
+
+ 
+
+
+Với thông tin tư vấn vay mua nhà của Topbank.vn. để tránh bị gián đoạn cũng như được ngân hàng xem xét giải ngân nhanh chóng, khách hàng cần chuẩn bị sẵn đầy đủ các giấy tờ sau:
+
+ 
+
+
+
+ 
+
+Chuẩn bị đủ hồ sơ để vay mua nhà Techcombank nhanh chóng nhất 
+
+ 
+
+
+	Giấy đề nghị vay vốn kiêm phương án trả nợ vay theo mẫu của Techcombank.
+	CMTND của khách hàng, Sổ hộ khẩu/Sổ tạm trú.
+	Giấy đăng ký kết hôn hoặc giấy xác nhận độc thân.
+	Tài liệu chứng minh nguồn thu nhập đề trả nợ.
+	Tài liệu liên quan tới nhà, đất ở cần mua, xây dựng, sửa chữa.
+	Tài liệu liên quan tới tài sản bảo đảm.
+
+
+ 
+
+Hy vọng với thông tin về lãi suất vay mua nhà Techcombank cũng như thủ tục và hồ sơ vay mua nhà tại đây sẽ giúp các bạn sớm lựa chọn được phương án vay phù hợp. Nhấc máy và gọi ngay đến hotline: 024 378 22 888 hoặc để lại thông tin đăng ký tại đây: đăng ký vay mua nhà Techcombank để được hỗ trợ nhanh nhất! 
+
+ 
+
+                        
+                            Theo thị trường tài chính
+                        
+                    
+                    
+                        
+                            đăng ký tư vấn vay trả góp 
+                        
+
+                        
+                    
+                        
+                            Từ khóa nổi bật
+                                vay mua nhà Techcombank
+                                lãi suất vay mua nhà Techcombank
+                                lãi suất vay mua nhà
+                                lãi suất vay mua nhà 2020
+                        
+
+            
+        
+        
+            Tư vấn khoản vay
+            
+                
+                    Bạn đang có nhu cầu vay mua nhà/xe/ vay tín chấp trả góp? Vui lòng điền các thông tin bên dưới để Topbank.vn liên hệ tư vấn cho bạn những vay ưu đãi  với thời gian sớm nhất!
+                
+                
+    
+    
+        
+        
+        
+        
+            Hà Nội
+TP.HCM
+Đà Nẵng
+Hải Phòng
+Cần Thơ
+An Giang
+Bắc Ninh
+Bạc Liêu
+Bình Dương
+Bình Phước
+Bình Thuận
+Bình Định
+Bắc Cạn
+Bắc Giang
+Bến Tre
+Cà Mau
+Cao Bằng
+Đồng Nai
+Đồng Tháp
+Đăk Lăk
+Đăk Nông
+Điện Biên
+Gia Lai
+Hưng Yên
+Hải Dương
+Hà Nam
+Hà Giang
+Hà Tĩnh
+Hậu Giang
+Hòa Bình
+Kiên Giang
+Khánh Hòa
+Kon Tum
+Long An
+Lạng Sơn
+Lâm Đồng
+Lào Cai
+Lai Châu
+Nghệ An
+Ninh Bình
+Ninh Thuận
+Nam Định
+Phú Thọ
+Phú Yên
+Quảng Nam
+Quảng Ninh
+Quảng Ngãi
+Quảng Bình
+Quảng Trị
+Sơn La
+Sóc Trăng
+Tây Ninh
+Thái Nguyên
+Thừa Thiên Huế
+Tiền Giang
+Thái Bình
+Thanh Hóa
+Trà Vinh
+Tuyên Quang
+Vĩnh Phúc
+Vĩnh Long
+Vũng Tàu
+Yên Bái
+
+        
+        
+            Chọn sản phẩm
+Vay mua ô tô
+Vay mua nhà, đất/vay thế chấp nhà
+Vay tín chấp
+Mở thẻ tín dụng
+
+        
+
+        
+            Nhận tư vấn
+        
+    
+
+
+
+            
+
+            
+                
+            
+
+            
+
+    Bài viết được quan tâm
+    
+            
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                            Lãi suất vay tín chấp eximbank 2020 cập nhật chi tiết
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                            Lãi suất gửi tiết kiệm ngân hàng mbbank tháng 2/2020
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                            Lãi suất gửi tiền tiết kiệm tại ngân hàng bidv năm 2020 là ...
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                            Cập nhật lãi suất ngân hàng agribank mới nhất 2020
+                        
+                    
+                
+            
+            
+                
+                    
+                        
+                    
+                
+                
+                    
+                        
+                            Lãi suất gửi tiết kiệm vietinbank cập nhật tháng 2/2020
+                        
+                    
+                
+            
+    
+
+
+            
+Chủ đề được quan tâm
+
+
+    
+
+            Vay mua nhà
+            Vay mua xe
+            Vay tiêu dùng
+            Thẻ tín dụng
+            Gửi tiết kiệm
+            Thanh toán
+            Bảo hiểm
+    
+
+
+
+                    Lãi suất ngân hàng
+    
+            Lãi suất vay ngân hàng nào thấp nhất 2020?
+            Lãi suất ngân hàng Vietcombank mới nhất 2020
+            Lãi suất ngân hàng BIDV năm 2019 cập nhật mới nhất
+            Cập nhật lãi suất ngân hàng Techcombank mới nhất năm 2019
+            Lãi suất ngân hàng VPBank 2019 cập nhật mới nhất
+    
+
+
+
+
+                    Ngân hàng tiêu biểu
+    
+            Lãi suất vay mua nhà Vietcombank tháng 3/2020 đầy đủ, chính xác nhất
+            Lãi suất vay mua nhà VPBank tháng 3/2020 - Mua nhà với lãi suất chỉ từ 8.5%/năm
+            Lãi suất vay mua nhà Techcombank tháng 3/2020 - Cập nhật mới nhất
+            Lãi suất vay mua xe TPBank tháng 2/2020 mới nhất hiện nay
+            Hạn mức và lãi suất vay mua xe ngân hàng Eximbank
+    
+
+
+
+
+        
+    
+
+
+
+
+
+    
+        Bài viết liên quan
+        
+            
+                
+                    
+                        
+                            
+                                
+                                
+                                    
+                                        MSB ưu đãi lãi suất vay thế chấp chỉ 6,59%/năm
+                                    
+                                    02/03/2020
+                                
+                            
+                        
+                    
+                        
+                                
+                                    
+                                    
+                                        Lãi suất vay mua nhà VPBank tháng 3/2020 - Mua nhà với lãi suất chỉ từ 8.5%/năm
+                                        02/03/2020
+                                        
+                                            VPBank đang cho vay mua nhà với lãi suất ưu đãi chỉ từ 8.5%/năm, vay đến 100% giá trị nhà, thủ tục đơn giản, phê duyệt trong 2 ngày.  
+                                        
+                                    
+                                
+                                
+                                    
+                                    
+                                        Lãi suất vay mua nhà tháng 3/2020 tại các ngân hàng uy tín nhất
+                                        02/03/2020
+                                        
+                                            Cập nhật, đánh giá và so sánh lãi suất vay mua nhà tháng 3/2020 tại các ngân hàng, đồng thời hỗ trợ tư vấn cho vay vốn mua nhà với mức lãi suất ưu đãi nhất.  
+                                        
+                                    
+                                
+                                
+                                    
+                                    
+                                        Lãi suất vay mua nhà Vietcombank tháng 3/2020 đầy đủ, chính xác nhất
+                                        02/03/2020
+                                        
+                                            Lãi suất vay mua nhà Vietcombank tháng 3/2020 chỉ từ 8,1%/năm cùng nhiều chương trình ưu đãi hấp dẫn. Thủ tục vay tiền mua nhà Vietcombank đơn giản, thủ tục linh hoạt giúp hỗ trợ tài chính cho khách hàng nhanh chóng.  
+                                        
+                                    
+                                
+                        
+
+                
+            
+        
+    
+
+
+    
+        
+            Có thể bạn quan tâm
+            
+                
+                    
+                        
+                        Cập nhật lãi suất vay mua nhà Hong Leong Bank tháng 2/2020 mới nhất
+                    
+                    04/02/2020
+                
+                
+                    
+                        
+                        Lãi suất vay mua nhà VIB tháng 2/2020 - Lãi suất chỉ từ 8.5%/năm
+                    
+                    03/02/2020
+                
+                
+                    
+                        
+                        Lãi suất vay mua nhà TPBank tháng 2/2020 ưu đãi cực thấp
+                    
+                    03/02/2020
+                
+                
+                    
+                        
+                        Lãi suất vay mua nhà BIDV tháng 2/2020 - Lãi suất ưu đãi 8%/năm
+                    
+                    03/02/2020
+                
+            
+        
+    
+
+
+
+    
+    
+
+    
+
+        
+            
+                
+                    
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                        
+                            
+                                
+                            
+                        
+                    
+                
+            
+        
+
+
+
+
+
+
+    
+        
+            
+                    
+    Vay mua nhà
+            Vay mua nhà VPBank
+            Vay mua nhà VIB
+            Vay mua nhà BIDV
+            Vay mua nhà Techcombank
+            Vay mua nhà Vietcombank
+
+    
+    
+    Vay mua xe ô tô
+            Vay mua ô tô MB Bank
+            Vay mua xe Eximbank
+            Vay mua xe TPbank
+            Vay mua xe BIDV
+            Vay mua xe Techcombank
+
+    
+    
+    Sản phẩm ngân hàng
+            Lãi suất vay ngân hàng
+            Thẻ tín dụng Shinhanbank
+            Thẻ tín dụng VIB
+            Lãi suất tiết kiệm Vietcombank
+            Lãi suất tiết kiệm BIDV
+
+    
+
+                
+                    Về chúng tôi
+                    Giới thiệu
+                    Liên hệ 
+                    Sơ đồ website
+                    Những câu hỏi thường gặp
+                
+            
+        
+    
+    
+        
+            Bản quyền thuộc về topbank.vn | © Copyright 2016 topbank.vn 
+            
+        
+    
+
+    
+
+
+
+    
+
+
+
+
+    
+        
+        Chat với Topbank.vn
+        
+    
+
+
+
+
+
+
+
+
+    var domainStatic = 'https://s1.topbank.vn';
+    var chatServerUrl = 'https://svrhubs.topbank.vn';
+    var senderId = '';
+    var senderName = '';
+
+    var tokenUploadfile = "0tIe9Xy2F+/HET01w3TngaYF5V85gVw5eaKMDzt8TPI=";
+    var svrUploadfile = "https://upload.topbank.vn/UploadHandler.php";
+    var prjUploadFile = "financial";
+    var svrDownloadfile = "//img.topbank.vn";
+
+    if (senderName != '') {
+        //BDSChat.attachEvents();
+        //BDSChat.setIsAdmin(false);
+    }
+
+
+
+
+    
+        SocialGoogleClientId = '185283259112-el4sfaf5c8fmcainvevcd052da2ugnqd.apps.googleusercontent.com';
+    
+
+    
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+

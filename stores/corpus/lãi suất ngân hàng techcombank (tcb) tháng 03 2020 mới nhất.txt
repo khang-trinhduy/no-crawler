@@ -1,0 +1,938 @@
+    
+
+                              
+
+
+    
+
+
+
+
+
+
+
+        
+            
+
+
+    function backToMobile() {
+        document.cookie = 'browser' + '=;expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        window.location.href = window.location.href;
+    };
+    $(document).ready(function () {
+
+        (function () {
+            var baseTime = new Date();
+            $("#_dateTime").html((baseTime.getHours() < 10 || (baseTime.getHours() > 12 && baseTime.getHours() < 22) ? "0" : "") +
+                (baseTime.getHours() > 12 ? baseTime.getHours() - 12 : baseTime.getHours()) + ":" +
+                (baseTime.getMinutes() >= 10 ? baseTime.getMinutes() : "0" + baseTime.getMinutes()) +
+                (baseTime.getHours() > 12 ? "PM" : "AM") +
+                ", " + (baseTime.getDate() >= 10 ? baseTime.getDate() : "0" + baseTime.getDate()) + "/" +
+                (baseTime.getMonth() < 10 ? "0" : "") +
+                (baseTime.getMonth() + 1) + "/" + baseTime.getFullYear()).attr("data-value", baseTime.getTime());;
+
+            var isMobileRedirect = getCookie("browser");
+            if (isMobileRedirect == 'web') {
+                try {
+                    $('#backtomobile').show();
+                } catch (e) {
+                    console.log(e);
+                }
+            }
+        })();
+    });
+
+
+
+    
+        
+            
+
+            
+                
+                    
+                    0995222999
+                
+                
+            
+
+            
+        
+    
+    
+        
+
+            
+                
+                    
+                
+                
+                    THỜI SỰ
+                    
+                
+              
+                
+                    HÀNG HOÁ
+                    
+                
+                
+                    TÀI CHÍNH
+                    
+                
+                
+                    NHÀ ĐẤT
+                    
+                
+                
+                    CHỨNG KHOÁN
+                    
+                
+                
+                    DOANH NGHIỆP
+                    
+                
+                
+                    KINH DOANH
+                    
+                
+                
+                
+            
+
+            
+                
+                    
+                    
+                
+                
+                    
+                    
+                
+            
+            
+
+            
+                
+                
+            
+
+            
+                
+                    
+                    
+                    
+                
+                
+                    
+                        
+                                
+                                    Thời sự
+                                    
+                                        
+                                                Thị trường
+                                            
+                                                Đầu tư
+                                            
+                                                Vĩ mô
+                                            
+                                                Nhân sự
+                                            
+                                                Chính sách
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    Hàng hóa
+                                    
+                                        
+                                                Năng lượng
+                                            
+                                                Nguyên liệu
+                                            
+                                                Vàng
+                                            
+                                                Nông sản
+                                            
+                                                Báo cáo ngành hàng
+                                            
+                                                Giao thương
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    Chứng khoán
+                                    
+                                        
+                                                Thị trường
+                                            
+                                                Giao dịch lớn
+                                            
+                                                IPO - Niêm yết
+                                            
+                                                Kiến thức
+                                            
+                                                Quốc tế
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    Nhà đất
+                                    
+                                        
+                                                Quy hoạch
+                                            
+                                                Thị trường
+                                            
+                                                Dự án
+                                            
+                                                Chủ đầu tư
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    Doanh nghiệp
+                                    
+                                        
+                                                Tin hoạt động
+                                            
+                                                Kết quả kinh doanh
+                                            
+                                                Lãnh đạo
+                                            
+                                                Chân dung Doanh nghiệp
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    Tài chính
+                                    
+                                        
+                                                Ngân hàng
+                                            
+                                                Tiền điện tử
+                                            
+                                                Bảo hiểm
+                                            
+                                                Quốc tế
+                                            
+                                                Tài chính cá nhân
+                                            
+                                    
+                                    
+                                
+                            
+                                
+                                    Kinh doanh
+                                    
+                                        
+                                                Khởi nghiệp
+                                            
+                                                Quản trị
+                                            
+                                                Doanh nhân
+                                            
+                                                Làm giàu
+                                            
+                                    
+                                    
+                                
+                            
+
+                        
+
+                        
+                    
+                    
+                        
+                            
+                                
+                                
+                                
+                            
+                            Xem bản mobile
+                        
+                
+            
+
+            
+        
+    
+
+
+
+    
+    
+        arfAsync.push("jsec9wly");
+    
+
+
+    
+    
+        TAGS
+        
+        
+            lãi suất ngân hàng techcombank
+            
+            
+            
+
+    
+        
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 3/2020: Điều chỉnh giảm ở nhiều kì hạn
+                        
+                        
+                            Kể từ cuối tháng 2, Techcombank đã thực hiện điều chỉnh giảm lãi suất ở tất cả kì hạn gửi từ 0,05 - 0,1 điểm % đối với cả hình thức gửi tiết kiệm online và tại quầy.
+                        
+                        Ngân hàng
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 2/2020
+                        
+                        
+                            Lãi suất tiền gửi  các kì hạn từ 1 tháng trở lên tại Techcombank dao động dao động từ 4,35% tới 7%/năm đối với khách hàng thường dưới 50 tuổi.
+                        
+                        Ngân hàng
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 1/2020
+                        
+                        
+                            Techcombank đã điều chỉnh tăng lãi suất ở nhiều kì hạn so với đầu tháng trước, mức tăng từ 0,1 - 0,3 điểm %, ở hầu hết kì hạn ngắn.
+                        
+                        Ngân hàng
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 12/2019: Giảm ở hầu hết kì hạn gửi
+                        
+                        
+                            Đầu tháng 12, lãi suất tiết kiệm  tại Techcombank giảm ở nhiều kì hạn với mức giảm từ 0,4 - 0,7 điểm %.
+                        
+                        Ngân hàng
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 11/2019
+                        
+                        
+                            Mức lãi suất tiền gửi cao nhất tại Techcombank là 7,3%/năm áp dụng tại sản phẩm tiết kiệm phát lộc kì hạn 18 tháng dành cho khách hàng ưu tiên 50+..
+                        
+                        Ngân hàng
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 10: Lãi suất cao nhất là 7,8%/năm
+                        
+                        
+                            Đầu tháng 10, Techcombank đã thực hiện điều chỉnh nhiều mức lãi suất ở các kì hạn khác nhau. Mức lãi suất cao nhất được nâng lên 7,8%/năm áp dụng tại kì hạn gửi 12 tháng và số tiền gửi lớn từ 999 tỉ đồng trở lên.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 9/2019
+                        
+                        
+                            Mức lãi suất tiết kiệm cao nhất tại Techcombank là 7,2%/năm đối với khách hàng thường khi gửi tiết kiệm online kì hạn 18, 24 tháng và 7,3% đối với khách hàng ưu tiên. 
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 8/2019
+                        
+                        
+                            Mức lãi suất tiết kiệm tại quầy cao nhất của Techcombank là 7%/năm đối với khách hàng thường và 7,1% đối với khách hàng ưu tiên. Với hình thức gửi online mức này được cộng thêm 0,2 điểm %.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 7: Cộng thêm lãi suất khi gửi tiết kiệm online
+                        
+                        
+                            Mức lãi suất tiết kiệm cao nhất tại Techcombank hiện tại là 7%/năm áp dụng đối với kì hạn gửi từ 24 tháng trở lên của khách hàng ưu tiên.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 6/2019
+                        
+                        
+                            Trong tháng 6/2019, mức lãi suất tiền gửi cao nhất tại Techcombank là 7%/năm dành cho khách hàng cá nhân, sản phẩm tiết kiệm phát lộc online tại các kì hạn từ 24 tháng, 25 tháng và 36 tháng.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank mới nhất tháng 5/2019
+                        
+                        
+                            Mức lãi suất tiết kiệm cao nhất tại Techcombank là 7,1%/năm áp dụng cho hình thức gửi Tiết kiệm phát lộc online với kì hạn 24 tháng.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank tháng 4/2019 cao nhất là 7,1%/năm
+                        
+                        
+                            Trong tháng 4/2019, mức lãi suất tiền gửi cao nhất tại Techcombank là 7,1%/năm dành cho khách hàng cá nhân, sản phẩm tiết kiệm phát lộc online tại các kì hạn từ 24 tháng, 25 tháng và 36 tháng.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank trong tháng 3/2019 giảm tại một số kì hạn
+                        
+                        
+                            Trong tháng 3, lãi suất tiết kiệm tại ngân hàng Techcombank được điều chỉnh giảm tại một số kì hạn. Mức lãi suất cao nhất hiện tại là là 7,1%/năm dành cho sản phẩm tiết kiệm phát lộc online tại các kì hạn từ 24 tháng, 25 tháng và 36 tháng.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank cao nhất trong tháng 2/2019 là 7,2%/năm
+                        
+                        
+                            Trong đầu tháng 2, lãi suất ngân hàng  Techcombank cao nhất là 7,2%/năm dành cho sản phẩm tiết kiệm phát lộc online tại các kì hạn từ 24 tháng, 25 tháng và 36 tháng.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+                
+                    
+                        
+                    
+                    
+                        
+                            Lãi suất ngân hàng Techcombank tháng 1/2019: Lãi tiết kiệm 6 tháng tăng cao lên 7,1%/năm
+                        
+                        
+                            Cuối tháng 1, Techcombank điều chỉnh tăng đồng loạt lãi suất tại nhiều kì hạn từ 0,1 - 0,3 điểm %, nâng mức lãi suất kì hạn 6 tháng lên ở mức khá cao từ 7 - 7,1%/năm.
+                        
+                        Tài chính
+                         - 
+                        
+                        
+                        
+                        
+                    
+                
+            
+    
+
+
+            
+            
+            Tìm theo ngày
+            
+            
+            
+
+    12
+
+    
+
+
+            
+            
+            
+
+    
+    
+        
+            
+                
+                Ngân hàng Techombank là một trong những ngân hàng tư nhân có vốn điều lệ cũng như lợi nhuận cao nhất hiện nay. VietnamBiz tổng hợp từ các cơ quan báo chí chính thống và uy tín trong nước, luôn cập nhật đầy đủ, kịp thời và chính xác thông tin lãi suất của ngân hàng Techcombank hàng tháng, hàng quý. Bên cạnh đó, có các thông tin so sánh với những ngân hàng khác, để người đọc có thể tham khảo các mức lãi suất ngân hàng Tehcombank với ngân hàng khác.Xem thêm:  lãi suất ngân hàng vpbankLãi suất ngân hàng Techcombank cao nhất hiện nay là bao nhiêu?Theo biểu lãi suất mới công bố của ngân hàng Techcombank, khách hàng cá nhân khi gửi tiền tại đây có thể nhận mức lãi suất tiết kiệm cao nhất là 7,1%/năm. Đây là mức lãi suất dành cho tiền gửi VND đối với kỳ hạn 25 và 36 tháng của sản phẩm tiết kiệm phát lộc online. Đây là sản phẩm có các mức lãi suất cao nhất tại ngân hàng Techcombank. Các kỳ hạn từ 12 đến 20 tháng được hưởng lãi 7%/năm, còn dưới 12 tháng hưởng lãi từ 5,4 - 6,5%/năm. Kỳ hạn 1, 2 và 3 tuần là 0,5%/năm.Sản phẩm tiết kiệm thường online tại Techcombank có mức lãi suất thấp hơn 0,1 điểm % so với sản phẩm tiết kiệm phát lộc online trên, trừ ba kỳ hạn tuần thì vẫn là 0,5%/năm.Đối với khách hàng cá nhân thường gửi tiền tại ngân hàng Techcombank, lãi suất không kỳ hạn là 0,3%/năm. Lãi suất ngân hàng áp dụng cho tiền gửi kỳ hạn 1 đến 8 tháng là từ 4,8 - 6%/năm; kỳ hạn từ 9 đến 36 tháng hưởng lãi từ 6 - 6,6%/năm. Với khách hàng ưu tiền, lãi suất được hưởng sẽ cao hơn khách hàng thường 0,1 điểm %.Đối với khách hàng doanh nghiệp gửi tiền tại Techcombank có cơ hội nhận các mức lãi suất từ 5,2 - 6,7%/năm cho các kỳ hạn từ 1 đến 36 tháng, trả lãi cuối kỳ và giá trị tiền gửi dưới 5 tỉ đồng. Trường hợp tiền gửi từ trên 5 tỉ đồng sẽ được tăng lãi thêm 0,1 điểm %.Tiền gửi USD tại ngân hàng Techcombank duy trì lãi suất 0%; trong khi gửi bằng EUR, JPY, GBP có lãi suất 0,1%/năm đối với kỳ hạn 4 đến 12 tháng. Tiền gửi bằng AUD hưởng lãi từ 0,3 - 0,6%/nưm cho các kỳ hạn từ 1 - 12 tháng; tiền gửi bằng SGD thì lãi suất là 0,1 - 0,35%/năm.Xem thêm:  lãi suất ngân hàng Đông ÁHiện techcombank có khoảng 9 sản phẩm tiết kiệm dành cho khách hàng cá nhân, như Tiết kiệm F@st Saving, Tiết kiệm Trả lãi trước, Tiết kiệm Online, Tiết kiệm Phát Lộc, Tiết kiệm An LộcSuperkid, Tiết kiệm Tích Lũy Tài Hiền, Tiết kiệm Tích Lũy Tài Tâm, tiết kiệm thường. Bên cạnh đó là 7 sản phẩm cho vay cá nhân gồm Ưu đãi vượt trội dành cho khách hàng, Vay lại khoản đã trả, Phê duyệt trong vòng 6 giờ, Vay tiêu dùng, Vay sản xuất kinh doanh, Vay mua ô tô đi lại, Vay mua ô tô kinh doanh.Trong khi đó, ngân hàng Techcombank có đến 30 sản phẩm cho vay dành cho doanh nghiệp, có thể kể tên như Chương trình tài trợ tài chính cho Nhà phân phối cấp 1 Hàng tiêu dùng nhanh, Tài trợ doanh nghiệp là nhà thầu EVN, Cho vay VND lãi suất ưu đãi dành cho doanh nghiệp xuất khẩu, Tài trợ doanh nghiệp viễn thông, Tài trợ trọn gói doanh nghiệp may mặc xuất khẩu, Tài trợ doanh nghiệp phụ trợ ngành dầu khí, Tài trợ doanh nghiệp ngành giấy, Tài trợ doanh nghiệp ngành dược và vật tư y tế, Vay siêu tốc, Tài Trợ Nhà Phân Phối Thức Ăn Chăn Nuôi, Tài trợ Đại lý bán vé của hãng hàng không, Tài trợ nhà phân phối ngành hàng tiêu dùng…Xem thêm:  lãi suất ngân hàng cao nhất
+            
+        
+        
+    
+
+
+            
+        
+        
+            
+
+
+arfAsync.push("jsecagpu");
+
+            
+
+
+arfAsync.push("jsecyauk");
+
+
+            
+            
+            
+            
+
+
+    $(document).ready(function () {
+        iFrameResize({
+            checkOrigin: false,
+            log: true,
+            enablePublicMethods: true,
+            heightCalculationMethod: 'max'
+        }, '#IframeVNMoi')
+    });
+
+            
+
+            
+            
+            
+
+
+arfAsync.push("jsed503i");
+
+
+        
+        
+        
+
+        
+            
+            
+            
+
+
+    
+        
+                Thị trường chứng khoán 2/3: VN-Index đảo chiều tăng hơn điểm, bộ đôi SHB, LPB tăng kịch trần
+                
+
+                
+                
+                    
+                
+                
+                
+                    Thị trường chứng khoán  phiên đầu tháng 3 diễn biến giằng co trong phiên sáng với tâm lí thận trọng của giới đầu tư trước dịch covid-19, dù vậy lực mua gia tăng tại nhóm cổ phiếu vốn hóa lớn giúp các chỉ số đều đóng cửa trong sắc xanh.
+                
+            
+        
+                
+                    
+                        
+                    
+                    
+                        
+                            Cổ phiếu tâm điểm ngày 2/3: VNM, FPT, PLX, DRH, REE
+                        
+                        
+                    
+                
+                
+            
+    
+    
+        
+
+            
+                    
+                        
+                            
+                        
+                        
+                            Ban lãnh đạo Vinafood 2 lên kế hoạch khai thác tối đa tiềm năng bất động sản với quĩ đất lên tới 3,4 triệu m2
+                            
+                            
+                            Doanh nghiệp
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            Giá vàng phục hồi nhẹ sau 5 ngày sụt giảm liên tiếp nhưng vẫn cách xa mốc 49 triệu đồng/lượng
+                            
+                            
+                            Hàng hóa
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            4 yếu tố giúp đồng USD vẫn là thiên đường trú ẩn số một trong tâm bão virus corona
+                            
+                            
+                            Tài chính
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            Grab và Go-Jek sắp đối mặt đối thủ đáng gờm ở thị trường gọi đồ ăn tại châu Á 
+                            
+                            
+                            Kinh doanh
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            Masan Group muốn tăng sở hữu tại Masan Consumer
+                            
+                            
+                            Chứng khoán
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            Giáo chủ Tân Thiên Địa Lee Man-hee âm tính với virus corona chủng mới
+                            
+                            
+                            Thời sự
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            Áp lực xả nghìn tỉ đồng từ khối ngoại khiến VN-Index mất mốc 900 điểm, Dragon Capital thoái sạch vốn tại Sudico
+                            
+                            
+                            Chứng khoán
+                             - 
+
+                            
+                        
+                    
+                
+                    
+                        
+                            
+                        
+                        
+                            Thêm 476 ca nhiễm mới, số bệnh nhân tại Hàn Quốc đã vượt 4.200; số người nhiễm tại Đức tăng gần gấp đôi
+                            
+                            
+                            Thời sự
+                             - 
+
+                            
+                        
+                    
+                
+
+        
+    
+    
+
+
+        
+        
+    
+    
+        $(document).ready(function () {
+            videoHD.isAd = true;
+            videoHD.init(".descriptionSection", {
+                type: videoHD.videoType.newsDetail
+            }, null);
+            $('.clickable').click(function () {
+                $('.descriptionSection').css("height", "auto");
+                $(this).remove();
+                $(".descriptionSection .overlay").hide();
+            });
+        });
+    
+
+
+
+    
+
+
+arfAsync.push("jsecx435");
+
+
+
+
+    
+    
+        
+            
+                
+            
+            
+                THỜI SỰ
+            
+            
+            
+                HÀNG HOÁ
+            
+            
+                TÀI CHÍNH
+            
+            
+                NHÀ ĐẤT
+            
+            
+                CHỨNG KHOÁN
+            
+            
+                DOANH NGHIỆP
+            
+            
+                KINH DOANH
+            
+        
+        
+    
+    
+        
+            Trang TTĐTTH Của công ty VietnewsCorp
+            Giấy phép số 34/GP-STTTT do Sở TT&TT TP.HCM cấp ngày 24/8/2016
+            
+            Lầu 3 - Compa Building - 293 Điện Biên Phủ - Phường 15 - Bình Thạnh - TP.HCM
+            Chi nhánh: Số 5 - Khu 38A Trần Phú - Ba Đình - Hà Nội
+            Chịu trách nhiệm nội dung: LÊ HỒNG KỸ
+            Hotline: 0995222999
+            Email: info@vietnambiz.vn
+            
+            Trách nhiệm về thông tin
+            
+                
+                    x
+                    
+                        
+                        Trách nhiệm về thông tin
+                        VietnamBiz.vn tổng hợp nguyên văn thông tin từ một số cơ quan thông tấn, báo chí trong nước theo quy định. Chúng tôi sẽ cập nhật thông tin ngay sau khi nhận thấy các thông tin gốc có thay đổi; đồng thời tuân thủ các quy định hiện hành về trách nhiệm phản hồi, đính chính, cải chính... Đề nghị người dùng tham khảo thông tin gốc đồng thời dẫn nguồn chính xác theo cơ quan báo chí phát hành thông tin trong trường hợp trích dẫn một phần hoặc nguyên bản các thông tin do VietnamBiz.vn tổng hợp. Người dùng tự chịu trách nhiệm, bao gồm nhưng không giới hạn trách nhiệm về bản quyền, trong trường hợp này.
+                    
+                
+            
+        
+        
+            DỊCH VỤ QUẢNG CÁO
+            Tel: 0931589222 (Ms Ngọc)
+            Email: quangcao@vietnambiz.vn
+        
+        
+            
+                
+            
+            
+                
+            
+            
+                
+            
+        
+        
+
+    
+    
+
+
+                
+        
+        
+    
+
+
