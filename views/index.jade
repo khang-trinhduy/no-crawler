@@ -3,3 +3,16 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}
+  table
+    thead
+      tr
+        th Title
+        th Link
+        th Snippet
+    tbody
+      each res in result
+        tr
+          td #{res.title}
+          td 
+            a(href="#{res.link}") Link
+          td #{res.snippet}

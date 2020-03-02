@@ -21,14 +21,17 @@
     "npm": "~6.13.x"
   },
   "dependencies": {
+    "clean-css": "^4.1.11",
+    "constantinople": "^3.1.1",
     "cookie-parser": "~1.4.4",
+    "crawler": "^1.2.1",
     "debug": "~2.6.9",
     "express": "~4.16.1",
+    "google": "^2.1.0",
+    "google-it": "^1.5.0",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "morgan": "~1.9.1",
-    "nodemon": "^2.0.2",
-    "constantinople": "^3.1.1",
-    "clean-css": "^4.1.11"
+    "nodemon": "^2.0.2"
   }
 }
