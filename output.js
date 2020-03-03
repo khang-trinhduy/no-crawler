@@ -5,7 +5,7 @@ exports.out = [
     normalized: "agribank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.20", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.20", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.30", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "4.30", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "4.80", period: 3, loc: "HCM", threshold: "" },
@@ -44,7 +44,12 @@ exports.out = [
     type: 1,
     interestRates: {
       unlimit: { value: "0.80", period: 0, loc: "HCM", threshold: "-" },
-      oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "" },
+      oneM: {
+        value: "5.00",
+        period: 1,
+        loc: "HCM",
+        threshold: ""
+      },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
       sixM: { value: "7.70", period: 6, loc: "HCM", threshold: "Từ 3 tỉ" },
@@ -126,7 +131,12 @@ exports.out = [
     type: 1,
     interestRates: {
       unlimit: { value: "0.40", period: 0, loc: "HCM", threshold: "-" },
-      oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "" },
+      oneM: {
+        value: "5.00",
+        period: 1,
+        loc: "HCM",
+        threshold: ""
+      },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
       sixM: { value: "7.00", period: 6, loc: "HCM", threshold: "" },
@@ -182,7 +192,7 @@ exports.out = [
     normalized: "bidv",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.30", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "4.30", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "4.80", period: 3, loc: "HCM", threshold: "" },
@@ -239,7 +249,7 @@ exports.out = [
     normalized: "hdbank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
@@ -268,12 +278,7 @@ exports.out = [
       thirteenM: { value: "7.80", period: 13, loc: "HCM", threshold: "" },
       eighteenM: { value: "8.00", period: 18, loc: "HCM", threshold: "" },
       twentyFourM: { value: "8.00", period: 24, loc: "HCM", threshold: "" },
-      thirtySixM: {
-        value: "7.80",
-        period: 36,
-        loc: "HCM",
-        threshold: ""
-      }
+      thirtySixM: { value: "7.80", period: 36, loc: "HCM", threshold: "" }
     }
   },
   {
@@ -282,17 +287,22 @@ exports.out = [
     normalized: "lienvietpostbank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.90", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "4.90", period: 2, loc: "HCM", threshold: "" },
-      threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
+      threeM: {
+        value: "5.00",
+        period: 3,
+        loc: "HCM",
+        threshold: ""
+      },
       sixM: { value: "6.10", period: 6, loc: "HCM", threshold: "" },
-      nineM: { value: "6.20", period: 9, loc: "HCM", threshold: "" },
-      twelveM: { value: "6.90", period: 12, loc: "HCM", threshold: "" },
-      thirteenM: { value: "7.00", period: 13, loc: "HCM", threshold: "" },
-      eighteenM: { value: "7.20", period: 18, loc: "HCM", threshold: "" },
-      twentyFourM: { value: "7.30", period: 24, loc: "HCM", threshold: "" },
-      thirtySixM: { value: "7.40", period: 36, loc: "HCM", threshold: "" }
+      nineM: { value: "6.10", period: 9, loc: "HCM", threshold: "" },
+      twelveM: { value: "6.80", period: 12, loc: "HCM", threshold: "" },
+      thirteenM: { value: "6.80", period: 13, loc: "HCM", threshold: "" },
+      eighteenM: { value: "6.90", period: 18, loc: "HCM", threshold: "" },
+      twentyFourM: { value: "6.90", period: 24, loc: "HCM", threshold: "" },
+      thirtySixM: { value: "6.90", period: 36, loc: "HCM", threshold: "" }
     }
   },
   {
@@ -301,7 +311,7 @@ exports.out = [
     normalized: "mbb",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.80", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
@@ -330,12 +340,12 @@ exports.out = [
     normalized: "msb",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "0.00" },
       oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "Từ  1 tỉ" },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "Từ  1 tỉ" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "Từ  1 tỉ" },
-      sixM: { value: "6.90", period: 6, loc: "HCM", threshold: "Từ  1 tỉ" },
-      nineM: { value: "7.00", period: 9, loc: "HCM", threshold: "Từ  1 tỉ" },
+      sixM: { value: "6.80", period: 6, loc: "HCM", threshold: "Từ  1 tỉ" },
+      nineM: { value: "6.90", period: 9, loc: "HCM", threshold: "Từ  1 tỉ" },
       twelveM: { value: "7.10", period: 12, loc: "HCM", threshold: "Từ  1 tỉ" },
       thirteenM: {
         value: "7.20",
@@ -407,17 +417,17 @@ exports.out = [
     normalized: "ocb",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "-" },
-      oneM: { value: "4.90", period: 1, loc: "HCM", threshold: "" },
-      twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
+      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "" },
+      oneM: { value: "4.80", period: 1, loc: "HCM", threshold: "" },
+      twoM: { value: "4.90", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
-      sixM: { value: "7.30", period: 6, loc: "HCM", threshold: "" },
-      nineM: { value: "7.40", period: 9, loc: "HCM", threshold: "" },
-      twelveM: { value: "7.50", period: 12, loc: "HCM", threshold: "" },
+      sixM: { value: "7.20", period: 6, loc: "HCM", threshold: "" },
+      nineM: { value: "7.30", period: 9, loc: "HCM", threshold: "" },
+      twelveM: { value: "7.40", period: 12, loc: "HCM", threshold: "" },
       thirteenM: { value: "0.00", period: 13, loc: "HCM", threshold: "" },
-      eighteenM: { value: "7.60", period: 18, loc: "HCM", threshold: "" },
-      twentyFourM: { value: "7.80", period: 24, loc: "HCM", threshold: "" },
-      thirtySixM: { value: "7.80", period: 36, loc: "HCM", threshold: "" }
+      eighteenM: { value: "7.50", period: 18, loc: "HCM", threshold: "" },
+      twentyFourM: { value: "7.70", period: 24, loc: "HCM", threshold: "" },
+      thirtySixM: { value: "7.70", period: 36, loc: "HCM", threshold: "" }
     }
   },
   {
@@ -427,7 +437,12 @@ exports.out = [
     type: 1,
     interestRates: {
       unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
-      oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "" },
+      oneM: {
+        value: "5.00",
+        period: 1,
+        loc: "HCM",
+        threshold: ""
+      },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
       sixM: { value: "7.30", period: 6, loc: "HCM", threshold: "" },
@@ -523,12 +538,7 @@ exports.out = [
     type: 1,
     interestRates: {
       unlimit: { value: "0.20", period: 0, loc: "HCM", threshold: "Từ 2 tỉ" },
-      oneM: {
-        value: "4.60",
-        period: 1,
-        loc: "HCM",
-        threshold: "Từ 2 tỉ"
-      },
+      oneM: { value: "4.60", period: 1, loc: "HCM", threshold: "Từ 2 tỉ" },
       twoM: { value: "4.70", period: 2, loc: "HCM", threshold: "Từ 2 tỉ" },
       threeM: { value: "4.80", period: 3, loc: "HCM", threshold: "Từ 2 tỉ" },
       sixM: { value: "6.90", period: 6, loc: "HCM", threshold: "Từ 2 tỉ" },
@@ -566,63 +576,63 @@ exports.out = [
     normalized: "techcombank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: {
-        value: "4.80",
+        value: "4.75",
         period: 1,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       twoM: {
-        value: "4.80",
+        value: "4.75",
         period: 2,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       threeM: {
-        value: "4.80",
+        value: "4.75",
         period: 3,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       sixM: {
-        value: "6.90",
+        value: "6.80",
         period: 6,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       nineM: {
-        value: "6.20",
+        value: "6.10",
         period: 9,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       twelveM: {
-        value: "7.00",
+        value: "6.90",
         period: 12,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       thirteenM: {
-        value: "6.50",
+        value: "6.40",
         period: 13,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       eighteenM: {
-        value: "7.20",
+        value: "7.10",
         period: 18,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       twentyFourM: {
-        value: "6.60",
+        value: "6.50",
         period: 24,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
       },
       thirtySixM: {
-        value: "6.60",
+        value: "6.50",
         period: 36,
         loc: "HCM",
         threshold: "Từ 3 tỉ và KH trên 50 tuổi"
@@ -636,7 +646,12 @@ exports.out = [
     type: 1,
     interestRates: {
       unlimit: { value: "0.60", period: 0, loc: "HCM", threshold: "-" },
-      oneM: { value: "4.85", period: 1, loc: "HCM", threshold: "" },
+      oneM: {
+        value: "4.85",
+        period: 1,
+        loc: "HCM",
+        threshold: ""
+      },
       twoM: { value: "4.95", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
       sixM: { value: "6.80", period: 6, loc: "HCM", threshold: "" },
@@ -654,17 +669,37 @@ exports.out = [
     normalized: "vib",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "Từ 5 tỉ" },
-      twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
-      threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
-      sixM: { value: "7.20", period: 6, loc: "HCM", threshold: "" },
-      nineM: { value: "7.30", period: 9, loc: "HCM", threshold: "" },
-      twelveM: { value: "7.59", period: 12, loc: "HCM", threshold: "" },
-      thirteenM: { value: "7.59", period: 13, loc: "HCM", threshold: "" },
-      eighteenM: { value: "7.60", period: 18, loc: "HCM", threshold: "" },
-      twentyFourM: { value: "7.60", period: 24, loc: "HCM", threshold: "" },
-      thirtySixM: { value: "7.60", period: 36, loc: "HCM", threshold: "" }
+      twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "Từ 5 tỉ" },
+      threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "Từ 5 tỉ" },
+      sixM: { value: "7.20", period: 6, loc: "HCM", threshold: "Từ 5 tỉ" },
+      nineM: { value: "7.30", period: 9, loc: "HCM", threshold: "Từ 5 tỉ" },
+      twelveM: { value: "7.59", period: 12, loc: "HCM", threshold: "Từ 5 tỉ" },
+      thirteenM: {
+        value: "7.59",
+        period: 13,
+        loc: "HCM",
+        threshold: "Từ 5 tỉ"
+      },
+      eighteenM: {
+        value: "7.60",
+        period: 18,
+        loc: "HCM",
+        threshold: "Từ 5 tỉ"
+      },
+      twentyFourM: {
+        value: "7.60",
+        period: 24,
+        loc: "HCM",
+        threshold: "Từ 5 tỉ"
+      },
+      thirtySixM: {
+        value: "7.60",
+        period: 36,
+        loc: "HCM",
+        threshold: "Từ 5 tỉ"
+      }
     }
   },
   {
@@ -692,7 +727,7 @@ exports.out = [
     normalized: "vietbank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "5.00", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "5.00", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "5.00", period: 3, loc: "HCM", threshold: "" },
@@ -730,7 +765,7 @@ exports.out = [
     normalized: "vietcombank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.30", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "4.30", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "4.80", period: 3, loc: "HCM", threshold: "" },
@@ -749,7 +784,7 @@ exports.out = [
     normalized: "vietinbank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.10", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.30", period: 1, loc: "HCM", threshold: "" },
       twoM: { value: "4.30", period: 2, loc: "HCM", threshold: "" },
       threeM: { value: "4.80", period: 3, loc: "HCM", threshold: "" },
@@ -768,7 +803,7 @@ exports.out = [
     normalized: "vpbank",
     type: 1,
     interestRates: {
-      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "-" },
+      unlimit: { value: "0.00", period: 0, loc: "HCM", threshold: "" },
       oneM: { value: "4.80", period: 1, loc: "HCM", threshold: "Từ 10 tỉ" },
       twoM: { value: "4.80", period: 2, loc: "HCM", threshold: "Từ 10 tỉ" },
       threeM: { value: "4.90", period: 3, loc: "HCM", threshold: "Từ 10 tỉ" },
