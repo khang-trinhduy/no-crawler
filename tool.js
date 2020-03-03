@@ -34,71 +34,71 @@ parseLine = (str, callback) => {
       vals[0].toLowerCase() +
       '",type: 1,interestRates: {';
     result +=
-      'unlimit: { value:"' +
+      'unlimit: [{ value:"' +
       vals[1] +
       '",period: 0, loc: "HCM",threshold: "' +
       vals[2] +
-      '"}';
+      '"}]';
     result +=
-      ',oneM: { value:"' +
+      ',oneM:[{ value:"' +
       vals[3] +
       '",period: 1, loc: "HCM",threshold: "' +
       vals[4] +
-      '"}';
+      '"}]';
     result +=
-      ',twoM: { value:"' +
+      ',twoM: [{ value:"' +
       vals[5] +
       '",period: 2, loc: "HCM",threshold: "' +
       vals[6] +
-      '"}';
+      '"}]';
     result +=
-      ',threeM: { value:"' +
+      ',threeM: [{ value:"' +
       vals[7] +
       '",period: 3, loc: "HCM",threshold: "' +
       vals[8] +
-      '"}';
+      '"}]';
     result +=
-      ',sixM: { value:"' +
+      ',sixM: [{ value:"' +
       vals[9] +
       '",period: 6, loc: "HCM",threshold: "' +
       vals[10] +
-      '"}';
+      '"}]';
     result +=
-      ',nineM: { value:"' +
+      ',nineM: [{ value:"' +
       vals[11] +
       '",period: 9, loc: "HCM",threshold: "' +
       vals[12] +
-      '"}';
+      '"}]';
     result +=
-      ',twelveM: { value:"' +
+      ',twelveM: [{ value:"' +
       vals[13] +
       '",period: 12, loc: "HCM",threshold: "' +
       vals[14] +
-      '"}';
+      '"}]';
     result +=
-      ',thirteenM: { value:"' +
+      ',thirteenM: [{ value:"' +
       vals[15] +
       '",period: 13, loc: "HCM",threshold: "' +
       vals[16] +
-      '"}';
+      '"}]';
     result +=
-      ',eighteenM: { value:"' +
+      ',eighteenM: [{ value:"' +
       vals[17] +
       '",period: 18, loc: "HCM",threshold: "' +
       vals[18] +
-      '"}';
+      '"}]';
     result +=
-      ',twentyFourM: { value:"' +
+      ',twentyFourM: [{ value:"' +
       vals[19] +
       '",period: 24, loc: "HCM",threshold: "' +
       vals[20] +
-      '"}';
+      '"}]';
     result +=
-      ',thirtySixM: { value:"' +
+      ',thirtySixM: [{ value:"' +
       vals[21] +
       '",period: 36, loc: "HCM",threshold: "' +
       vals[22] +
-      '"}}},';
+      '"}]}},';
 
     callback(null, result);
   } catch (error) {
